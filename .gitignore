@@ -57,3 +57,4 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+/W1D1/build/
