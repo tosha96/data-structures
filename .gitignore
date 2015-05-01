@@ -58,3 +58,6 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 /W1D1/build/
+/W1D3/nbproject/private/
+/W1D4/nbproject/private/
+/W1D3/build/
