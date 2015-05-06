@@ -17,6 +17,7 @@ public class Structures {
     public static void main(String[] args) {
         Stack<String> testStack = new Stack<>(String.class);
         Queue<String> testQueue = new Queue<>(String.class);
+        LinkedList<String> testList = new LinkedList<>();
         
         testStack.push("This");
         testStack.push("is");
@@ -43,6 +44,15 @@ public class Structures {
         testQueue.pop();
         testQueue.pop();
         System.out.println(testQueue);
+        
+        System.out.println("");
+        
+        testList.add("This");
+        testList.add("is");
+        testList.add("a");
+        testList.add("test");
+        
+        System.out.println(testList);
     }
     
 }
