@@ -5,6 +5,8 @@
  */
 package structures;
 
+import java.util.Iterator;
+
 /**
  *
  * @author Tosha
@@ -19,7 +21,7 @@ public class Structures {
         Queue<String> testQueue = new Queue<>(String.class);
         LinkedList<String> testList = new LinkedList<>();
         
-        testStack.push("This");
+        /*testStack.push("This");
         testStack.push("is");
         testStack.push("a");
         testStack.push("test");
@@ -45,7 +47,7 @@ public class Structures {
         testQueue.pop();
         System.out.println(testQueue);
         
-        System.out.println("");
+        System.out.println("");*/
         
         testList.add("This");
         testList.add("is");
@@ -53,6 +55,18 @@ public class Structures {
         testList.add("test");
         
         System.out.println(testList);
+        System.out.println(testList.get(0));
+        
+        testList.remove(1);
+        testList.insert("Insert", 1);
+        
+        Iterator itr = testList.iterator();
+        /*for (String s : testList) {
+            
+        }*/
+        while (itr.hasNext()) {
+            System.out.println(itr.next());
+        }
     }
     
 }
